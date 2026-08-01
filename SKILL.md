@@ -27,6 +27,20 @@ problem. Keep this to the ~5 most relevant matches; don't pad the list.
 ("Nothing found" is itself a real, useful result — say so explicitly if
 a search area comes up empty.)
 
+**Verify each competitor is real before writing it up.** WebSearch
+results are AI-summarized and can fabricate a plausible-sounding product
+out of thin or mismatched snippets — this has actually happened (two
+invented apps made it into a session before being caught). For each
+candidate, use WebFetch on its primary URL (official site or app store
+listing) and confirm the page actually describes that product; a 404, a
+parked domain, or an unrelated business disqualifies it. If there's no
+single fetchable URL (common for older/defunct products), independent
+corroboration across multiple reputable sources in the search results
+(Wikipedia, major tech press) is an acceptable substitute — but one thin,
+uncorroborated source is not. Drop anything that fails verification
+rather than including it with a hedge; don't pad the list back up to 5
+unless a genuine replacement turns up.
+
 Give each competitor its own subsection (a heading with its name), with
 three consistent labeled fields underneath — don't fold them into a
 loose paragraph:
